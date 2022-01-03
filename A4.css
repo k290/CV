@@ -1,0 +1,33 @@
+
+@page {/*mhh todo does this do anything. WHat is the @*/
+    size: A4;
+    margin: 0;
+}
+
+body {
+    background: rgb(204,204,204);
+}
+
+page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+    page[size="A4"] {
+        width: 910px; /*21cm;*/
+        height: 1287px; /*29.7cm*/ /*Can't use cm because DPI of screen matters*/
+    }
+
+@media print {
+    body, page {
+        margin: 0;
+        box-shadow: 0;
+    }
+
+        page * {
+            -webkit-print-color-adjust: exact; /*Makes the colours print instead of being white*/
+        }
+}
