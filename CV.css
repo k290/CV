@@ -1,9 +1,22 @@
 @font-face {
     font-family: title;
-    src: url("Melodrama-Medium.woff2")
+    src: url("Italiana-Regular.ttf")
+}
+
+@font-face {
+    font-family: headers;
+    src: url("LexendTera-VariableFont_wght.ttf")
+}
+
+@font-face{
+    font-family: left-content;
+    src: url("Quilon-Regular.woff2");
 }
 
 
+a{
+    color: rgb(85, 26, 139);
+}
 
 
 .my-cv-page {
@@ -15,11 +28,12 @@
     --header-column-height: 232px;
     --padding-below-header: 46px;
     --A4-width: 910px; /*todo inject from a4 page. Duplicated*/
+    background-color: #f6eada;
 }
 
 
 .left-column {
-    background-color: #E2DBD5;
+    background-color: #c6bbbb;
     height: 100%;
     width: var(--left-column-width);
     position: absolute;
@@ -47,18 +61,19 @@
 
 .main-header {
     color: white;
-    background-color: black;
+    background-color: #684545;
     height: 38px;
     display: grid;
     align-items: center;
-    font-family: kartika;
+    font-family: left-content;
     font-size: 16px;
     letter-spacing: 10px;
     text-indent: 8px; /*because letter-spacing + centering is offset by the space amount*/
 }
 
+
 .left-column-content {
-    font-family: kartika;
+    font-family: left-content;
     padding-top: 25px;
     padding-bottom: 25px;
 }
