@@ -13,6 +13,9 @@
     src: url("Quilon-Regular.woff2");
 }
 
+body {
+    background: rgb(204,204,204);
+}
 
 a{
     color: rgb(85, 26, 139);

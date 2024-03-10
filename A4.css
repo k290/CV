@@ -4,12 +4,8 @@
     margin: 0;
 }
 
-body {
-    background: rgb(204,204,204);
-}
 
 page {
-    background: white;
     display: block;
     margin: 0 auto;
     margin-bottom: 0.5cm;
@@ -27,6 +23,9 @@ page {
         box-shadow: 0;
     }
 
+    page {
+        -webkit-print-color-adjust: exact;
+    }
         page * {
             -webkit-print-color-adjust: exact; /*Makes the colours print instead of being white*/
         }
