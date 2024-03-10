@@ -1,6 +1,6 @@
 @font-face {
     font-family: "kartika";
-    src: url("kartika.woff2")
+    src: url("Quilon-Regular.woff2")
 }
 
 .my-cv-page {
@@ -49,8 +49,8 @@
     display: grid;
     align-items: center;
     font-family: kartika;
-    font-size: 13px;
-    letter-spacing: 8px;
+    font-size: 16px;
+    letter-spacing: 10px;
     text-indent: 8px; /*because letter-spacing + centering is offset by the space amount*/
 }
 
@@ -162,11 +162,3 @@
     text-indent: 30px; /*because letter-spacing + centering is offset by the space amount*/
 }
 
-.name-line {
-    width: 132px;
-    height: 4.6px;
-    background-color: white;
-    border: none;
-    margin-block-start: 0px;
-    margin-block-end: 18px;
-}
