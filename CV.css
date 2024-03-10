@@ -1,7 +1,10 @@
 @font-face {
-    font-family: "kartika";
-    src: url("Quilon-Regular.woff2")
+    font-family: title;
+    src: url("Boska-Regular.woff2")
 }
+
+
+
 
 .my-cv-page {
     position: relative; /*needs to be positioned in order for children to be positioned relative to it. Relative with no top/left changes = position me relative to where I would have been*/
@@ -153,7 +156,7 @@
 }
 
 .name {
-    font-family: kartika;
+    font-family: title;
     display: grid;
     justify-content: center;
     font-size: 42px;
