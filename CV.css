@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: headers;
-    src: url("Kameron-VariableFont_wght.ttf")
+    src: url("PlayfairDisplaySC-Bold.ttf")
 }
 
 @font-face{
@@ -36,7 +36,7 @@ a{
 
 
 .left-column {
-    background-color: #b9b8a9;
+    background-color: #c9c2a9;
     height: 100%;
     width: var(--left-column-width);
     position: absolute;
@@ -64,7 +64,7 @@ a{
 
 .main-header {
     color: #e4e6dc;
-    background-color: #3f4154;
+    background-color: #39394e;
     height: 38px;
     display: grid;
     align-items: center;
