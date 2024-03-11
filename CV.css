@@ -31,12 +31,12 @@ a{
     --header-column-height: 232px;
     --padding-below-header: 46px;
     --A4-width: 910px; /*todo inject from a4 page. Duplicated*/
-    background-color: #f6eada;
+    background-color: #eee7d0;
 }
 
 
 .left-column {
-    background-color: #c6bbbb;
+    background-color: #c6bfa2;
     height: 100%;
     width: var(--left-column-width);
     position: absolute;
@@ -64,7 +64,7 @@ a{
 
 .main-header {
     color: white;
-    background-color: #684545;
+    background-color: #602626;
     height: 38px;
     display: grid;
     align-items: center;
