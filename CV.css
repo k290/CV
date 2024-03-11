@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: headers;
-    src: url("LexendTera-VariableFont_wght.ttf")
+    src: url("Kameron-VariableFont_wght.ttf")
 }
 
 @font-face{
@@ -36,7 +36,7 @@ a{
 
 
 .left-column {
-    background-color: #c6bfa2;
+    background-color: #babaa6;
     height: 100%;
     width: var(--left-column-width);
     position: absolute;
@@ -63,13 +63,14 @@ a{
 }
 
 .main-header {
-    color: white;
-    background-color: #602626;
+    color: #e4e6dc;
+    background-color: #343750;
     height: 38px;
     display: grid;
     align-items: center;
-    font-family: left-content;
-    font-size: 16px;
+    font-family: headers;
+    font-size: 18px;
+    font-weight: 550;
     letter-spacing: 10px;
     text-indent: 8px; /*because letter-spacing + centering is offset by the space amount*/
 }
