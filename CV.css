@@ -64,14 +64,13 @@ a{
 
 .main-header {
     color: #e4e6dc;
-    background-color: #393955;
+    background-color: #3b3b4b;
     height: 38px;
     display: grid;
     align-items: center;
     font-family: headers;
     font-size: 16px;
-    font-weight: 550;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     text-indent: 8px; /*because letter-spacing + centering is offset by the space amount*/
 }
 
