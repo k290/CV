@@ -36,7 +36,7 @@ a{
 
 
 .left-column {
-    background-color: #b2b2a7;
+    background-color: #b9b8a9;
     height: 100%;
     width: var(--left-column-width);
     position: absolute;
@@ -64,7 +64,7 @@ a{
 
 .main-header {
     color: #e4e6dc;
-    background-color: #353646;
+    background-color: #3f4154;
     height: 38px;
     display: grid;
     align-items: center;
