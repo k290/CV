@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: headers;
-    src: url("PlayfairDisplaySC-Bold.ttf")
+    src: url("LibreBaskerville-Bold.ttf")
 }
 
 @font-face{
@@ -36,7 +36,7 @@ a{
 
 
 .left-column {
-    background-color: #c9c2a9;
+    background-color: #cec8b3;
     height: 100%;
     width: var(--left-column-width);
     position: absolute;
@@ -64,12 +64,12 @@ a{
 
 .main-header {
     color: #e4e6dc;
-    background-color: #39394e;
+    background-color: #393955;
     height: 38px;
     display: grid;
     align-items: center;
     font-family: headers;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 550;
     letter-spacing: 10px;
     text-indent: 8px; /*because letter-spacing + centering is offset by the space amount*/
@@ -178,7 +178,7 @@ a{
     font-family: title;
     display: grid;
     justify-content: center;
-    font-size: 42px;
+    font-size: 45px;
     color: white;
     letter-spacing: 30px;
     text-indent: 30px; /*because letter-spacing + centering is offset by the space amount*/
