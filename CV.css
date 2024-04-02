@@ -39,10 +39,10 @@ page {
 }
 
     page[size="A4"] {
-        --A4-width: 910px; /*21cm;*/
-        --A4-height: 1287px; /*29.7cm*/ /*Can't use cm because DPI of screen matters*/
-        width: var(--A4-width);
-        height: var(--A4-height);
+        --page-width: 910px; /*21cm;*/
+        --page-height: 1287px; /*29.7cm*/ /*Can't use cm because DPI of screen matters*/
+        width: var(--page-width);
+        height: var(--page-height);
     }
 
 
@@ -70,7 +70,7 @@ page {
     padding-top: var(--padding-below-header);
     padding-left: 37px;
     padding-right: 37px;
-    width: calc(var(--A4-width) - (var(--left-column-left) + var(--left-column-width)));
+    width: calc(var(--page-width) - (var(--left-column-left) + var(--left-column-width)));
     text-align: center;
 }
 
