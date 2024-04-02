@@ -1,5 +1,5 @@
 
-@page {/*mhh todo does this do anything. WHat is the @*/
+@page { /*mhh todo does this do anything. WHat is the @*/
     size: A4;
     margin: 0;
 }
@@ -14,6 +14,7 @@
     page {
         -webkit-print-color-adjust: exact;
     }
+
         page * {
             -webkit-print-color-adjust: exact; /*Makes the colours print instead of being white*/
         }
