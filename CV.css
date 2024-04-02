@@ -36,13 +36,13 @@ page {
     --header-column-top: 170px;
     --header-column-height: 232px;
     --padding-below-header: 46px;
-    --A4-width: 910px; /*21cm;*/
-    --A4-height: 1287px; /*29.7cm*/ /*Can't use cm because DPI of screen matters*/
 }
 
-page[size="A4"] {
-        width: var(--A4-width); 
-        height: var(--A4-height); 
+    page[size="A4"] {
+        --A4-width: 910px; /*21cm;*/
+        --A4-height: 1287px; /*29.7cm*/ /*Can't use cm because DPI of screen matters*/
+        width: var(--A4-width);
+        height: var(--A4-height);
     }
 
 
