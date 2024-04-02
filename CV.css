@@ -29,7 +29,8 @@ page {
     margin-bottom: 0.5cm;
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
     position: relative; /*needs to be positioned in order for children to be positioned relative to it. Relative with no top/left changes = position me relative to where I would have been*/
-    /*Define some variables for content*/
+    background-color: #eee7d0;
+
     --left-column-left: 39px;
     --left-column-width: 276px;
     --header-column-top: 170px;
@@ -37,7 +38,6 @@ page {
     --padding-below-header: 46px;
     --A4-width: 910px; /*21cm;*/
     --A4-height: 1287px; /*29.7cm*/ /*Can't use cm because DPI of screen matters*/
-    background-color: #eee7d0;
 }
 
 page[size="A4"] {
