@@ -24,11 +24,13 @@ a {
 
 
 page {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr 2fr 18fr;
+    grid-template-rows: 1fr 3fr 6fr;
+    gap: 0px;
     margin: 0 auto;
     margin-bottom: 0.5cm;
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
-    position: relative; /*needs to be positioned in order for children to be positioned relative to it. Relative with no top/left changes = position me relative to where I would have been*/
     background-color: #eee7d0;
     --left-column-left: 39px;
     --left-column-width: 276px;
@@ -44,10 +46,26 @@ page {
         height: var(--page-height);
     }
 
+    page > div:nth-child(5) {
+        grid-row: span 2;
+    }
 
+
+.name-block {
+    background-color: #363636;
+}
+
+.band-block {
+    background-color: #d1cab2;
+}
+
+.name-container {
+    align-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
 
 .left-column {
-    background-color: #d1cab2;
     height: 100%;
     width: var(--left-column-width);
     position: absolute;
@@ -163,26 +181,6 @@ page {
     .content-detail.medium-spacing {
         margin-top: 3px;
     }
-
-
-
-.name-header {
-    background-color: #363636;
-    height: var(--header-column-height);
-    width: 100%;
-    position: absolute;
-    top: var(--header-column-top);
-}
-
-.right-header-portion {
-    position: absolute;
-    left: calc(var(--left-column-left) + var(--left-column-width));
-    height: 100%;
-    width: calc(100% - (var(--left-column-left) + var(--left-column-width)));
-    display: grid;
-    align-items: center;
-    justify-content: center;
-}
 
 .name {
     font-family: title;
