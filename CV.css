@@ -30,6 +30,8 @@ a {
     margin-bottom: 0.5cm;
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
     background-color: #eee7d0;
+    --dark-grey: #363636;
+    --satin-red: #4c3131;
 }
 
     .page.A4 {
@@ -45,7 +47,7 @@ a {
 
 
 .name-block {
-    background-color: #363636;
+    background-color: var(--dark-grey);
 }
 
 .name-content {
@@ -70,7 +72,7 @@ a {
 
 .main-header {
     color: #f1f3e9;
-    background-color: #4c3131;
+    background-color: var(--satin-red);
     height: 38px;
     display: grid;
     align-items: center;
