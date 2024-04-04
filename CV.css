@@ -25,7 +25,7 @@ a {
 
 .page {
     display: grid;
-    grid-template-columns: 4% 25% auto;
+    grid-template-columns: 4% 26% auto;
     grid-template-rows: 9% 19% auto;
     gap: 0px;
     margin: 0 auto;
@@ -67,12 +67,12 @@ a {
 
 .band-content{
     text-align: center;
-    padding: 0 3% 0 3%;
+    padding: 0 4% 0 4%;
 }
 
 .page-content{
     text-align: center;
-    padding: 20px 5% 20px 5%;
+    padding: 35px 5% 35px 5%; /*Maybe rather do this as a fraction of container width*/
 }
 
 
