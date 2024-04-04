@@ -21,8 +21,6 @@ a {
     color: rgb(85, 26, 139);
 }
 
-
-
 .page {
     display: grid;
     grid-template-columns: 4% 26% auto;
@@ -65,42 +63,14 @@ a {
     background-color: #d1cab2;
 }
 
-.band-content{
+.band-content {
     text-align: center;
     padding: 0 4% 0 4%;
 }
 
-.page-content{
+.page-content {
     text-align: center;
     padding: 35px 5% 35px 5%; /*Maybe rather do this as a fraction of container width*/
-}
-
-
-
-.left-column {
-    height: 100%;
-    width: var(--left-column-width);
-    position: absolute;
-    top: 0;
-    left: var(--left-column-left);
-    z-index: 1;
-    box-sizing: border-box; /*So that adding padding doesn't push its dimensions down*/
-    padding-top: calc(var(--header-column-top));
-    padding-left: 13px;
-    padding-right: 13px;
-    text-align: center;
-}
-
-.main-column {
-    position: absolute;
-    left: calc(var(--left-column-left) + var(--left-column-width));
-    top: calc(var(--header-column-top) + var(--header-column-height));
-    box-sizing: border-box; /*So that adding padding doesn't push its dimensions down*/
-    padding-top: var(--padding-below-header);
-    padding-left: 37px;
-    padding-right: 37px;
-    width: calc(var(--page-width) - (var(--left-column-left) + var(--left-column-width)));
-    text-align: center;
 }
 
 .main-header {
@@ -114,7 +84,6 @@ a {
     letter-spacing: 6px;
     text-indent: 8px; /*because letter-spacing + centering is offset by the space amount*/
 }
-
 
 .left-column-content {
     font-family: left-content;
