@@ -30,11 +30,6 @@ a {
     margin-bottom: 0.5cm;
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
     background-color: #eee7d0;
-    --left-column-left: 39px;
-    --left-column-width: 276px;
-    --header-column-top: 170px;
-    --header-column-height: 232px;
-    --padding-below-header: 46px;
 }
 
     .page.A4 {
