@@ -23,7 +23,7 @@ a {
 
 
 
-page {
+.page {
     display: grid;
     grid-template-columns: 1fr 2fr 18fr;
     grid-template-rows: 1fr 3fr 6fr;
@@ -39,14 +39,14 @@ page {
     --padding-below-header: 46px;
 }
 
-    page[size="A4"] {
+    .page.A4 {
         --page-width: 910px; /*21cm;*/
         --page-height: 1287px; /*29.7cm*/ /*Can't use cm because DPI of screen matters*/
         width: var(--page-width);
         height: var(--page-height);
     }
 
-    page > div:nth-child(5) {
+    .page > div:nth-child(5) {
         grid-row: span 2;
     }
 
