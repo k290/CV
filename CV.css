@@ -73,7 +73,7 @@ a {
 
 .main-header {
     color: #d9dbdc;
-    background-color: black;
+    background-color: var(--satin-red);
     height: 38px;
     display: grid;
     align-items: center;
