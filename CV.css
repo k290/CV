@@ -31,7 +31,7 @@ a {
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
     background-color: #eee7d0;
     --dark-grey: #363636;
-    --satin-red: #362323;
+    --satin-red: #372323;
     --light-grey: #cccaca;
 }
 
@@ -72,8 +72,8 @@ a {
 }
 
 .main-header {
-    color: #c0c3c4;
-    background-color: var(--satin-red);
+    color: #d9dbdc;
+    background-color: black;
     height: 38px;
     display: grid;
     align-items: center;
@@ -84,8 +84,8 @@ a {
 }
 
 .band-content .main-header {
-    color: #272828;
-    background-color: #757575;
+    color: black;
+    background-color: #6f7072;
 }
 
 
