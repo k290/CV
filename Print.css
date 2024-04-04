@@ -6,16 +6,16 @@
 
 
 @media print {
-    body, page {
+    body, .page {
         margin: 0;
         box-shadow: 0;
     }
 
-    page {
+    .page {
         -webkit-print-color-adjust: exact;
     }
 
-        page * {
+        .page * {
             -webkit-print-color-adjust: exact; /*Makes the colours print instead of being white*/
         }
 }
