@@ -31,7 +31,8 @@ a {
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
     background-color: #eee7d0;
     --dark-grey: #363636;
-    --satin-red: #4c3131;
+    --satin-red: #473030;
+    --light-grey: #cccaca;
 }
 
     .page.A4 {
@@ -57,7 +58,7 @@ a {
 }
 
 .band-block {
-    background-color: #d1cab2;
+    background-color: var(--satin-red);
 }
 
 .band-content {
@@ -71,7 +72,7 @@ a {
 }
 
 .main-header {
-    color: #f1f3e9;
+    color: white;
     background-color: var(--satin-red);
     height: 38px;
     display: grid;
@@ -82,10 +83,17 @@ a {
     text-indent: 8px; /*because letter-spacing + centering is offset by the space amount*/
 }
 
+.band-content .main-header {
+    color: #1d1c1c;
+    background-color: #655f5f;
+}
+
+
 .left-column-content {
     font-family: left-content;
     padding-top: 25px;
     padding-bottom: 25px;
+    color: #bfbfbf;
 }
 
 .main-column-content {
