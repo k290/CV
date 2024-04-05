@@ -31,7 +31,7 @@ a {
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
     background-color: #eee7d0;
     --dark-grey: #363636;
-    --satin-red: #3b2323;
+    --satin-red: #4d2c2c;
     --light-grey: #cccaca;
 }
 
@@ -58,7 +58,7 @@ a {
 }
 
 .band-block {
-    background-color: var(--satin-red);
+    background-color: #a7a799;
 }
 
 .band-content {
@@ -72,7 +72,7 @@ a {
 }
 
 .main-header {
-    color: #d9dbdc;
+    color: white;
     background-color: var(--satin-red);
     height: 38px;
     display: grid;
@@ -81,11 +81,6 @@ a {
     font-size: 16px;
     letter-spacing: 6px;
     text-indent: 8px; /*because letter-spacing + centering is offset by the space amount*/
-}
-
-.band-content .main-header {
-    color: #d8d6d6;
-    background-color: #6b5151;
 }
 
 
