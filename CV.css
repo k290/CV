@@ -31,7 +31,7 @@ a {
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
     background-color: #eee7d0;
     --dark-grey: #363636;
-    --satin-red: #372323;
+    --satin-red: #3b2323;
     --light-grey: #cccaca;
 }
 
@@ -63,7 +63,7 @@ a {
 
 .band-content {
     text-align: center;
-    padding: 0 4% 0 4%;
+    padding: 0 5% 0 5%;
 }
 
 .page-content {
@@ -84,8 +84,8 @@ a {
 }
 
 .band-content .main-header {
-    color: black;
-    background-color: #6f7072;
+    color: #d8d6d6;
+    background-color: #6b5151;
 }
 
 
