@@ -23,7 +23,7 @@ a {
 
 .page {
     display: grid;
-    grid-template-columns: 4% 26% auto;
+    grid-template-columns: 3% 27% auto;
     grid-template-rows: 9% 19% auto;
     gap: 0px;
     margin: 0 auto;
@@ -58,7 +58,7 @@ a {
 }
 
 .band-block {
-    background-color: #a7a799;
+    background-color: #aca498;
 }
 
 .band-content {
