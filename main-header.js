@@ -7,7 +7,6 @@ class MainHeader extends HTMLElement {
         header.textContent = this.getAttribute('text');
         header.classList.add('main-header');
 
-        // Optional: Add styles directly
         const style = document.createElement('style');
         style.textContent = `
             .main-header {
