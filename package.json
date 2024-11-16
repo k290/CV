@@ -1,2 +1,9 @@
-{"dependencies":{"@microsoft/fast-element":"2.0.0"}}
+{
+  "dependencies": {
+    "@microsoft/fast-element": "2.0.0"
+  },
+  "devDependencies": {
+    "local-web-server": "5.4.0"
+  }
+}
 
