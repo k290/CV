@@ -1,9 +1,12 @@
 {
+  "scripts": {
+    "start": "serve"
+  },
   "dependencies": {
     "@microsoft/fast-element": "2.0.0"
   },
   "devDependencies": {
-    "local-web-server": "5.4.0"
+    "https-localhost": "4.7.1"
   }
 }
 
