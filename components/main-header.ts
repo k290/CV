@@ -1,6 +1,6 @@
 ﻿import { FASTElement, attr, css, html } from "@microsoft/fast-element";
 
-const template = html`<div>${x => x.text}!</div>`
+const template = html<MainHeader>`<div>${x => x.text}!</div>`
 
 /**
  * Create CSS styles using the css tag template literal
