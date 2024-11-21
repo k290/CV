@@ -1,6 +1,7 @@
 {
   "scripts": {
     "build": "tsc",
+    "watch": "tsc --watch",
     "start": "serve"
   },
   "dependencies": {
