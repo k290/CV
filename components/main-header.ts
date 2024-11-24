@@ -1,6 +1,6 @@
 ﻿import { FASTElement, attr, css, html } from "@microsoft/fast-element";
 
-const template = html<MainHeader>`<div>${x => x.text}!</div>`
+const template = html<MainHeader>`<div>${x => x.text}</div>`
 
 /**
  * Create CSS styles using the css tag template literal
@@ -21,7 +21,7 @@ class MainHeader extends FASTElement {
 }
 
 MainHeader.define({
-    name: "main-jeader",
+    name: "main-header",
     template,
     styles,
 });

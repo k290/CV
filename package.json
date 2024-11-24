@@ -1,7 +1,6 @@
 {
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc --watch",
+    "build": "tsc && esbuild ./dist/*.js --bundle --outdir=./dist/bundled --sourcemap",
     "start": "serve"
   },
   "dependencies": {
@@ -9,7 +8,8 @@
   },
   "devDependencies": {
     "https-localhost": "4.7.1",
-    "typescript": "5.6.3"
+    "typescript": "5.6.3",
+    "esbuild": "0.24.0"
   }
 }
 
